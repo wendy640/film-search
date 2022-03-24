@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* <ul>
+				{movies.map((movie) => (
+					<li key={movie.id}>
+						{movie.name}
+					
+						<p>{movie.description}</p>
+					</li>
+				))}
+			</ul> */
