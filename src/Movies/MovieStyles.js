@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 import header from '../Assets/header.png'
 import image from '../Assets/image.png'
-import box from '../Assets/box.png'
 export const NavContainer = styled.div`
 	box-sizing: border-box;
-  overflow:hidden;
+	overflow: hidden;
 	/* position: absolute;
 	width: 100%;
 	z-index: 1;
@@ -24,7 +23,6 @@ export const Border = styled.div`
 	padding-top: 15px;
 	margin-left: 70px;
 `
-	
 
 export const Crowd = styled.div`
 	background-image: url(${image});
@@ -45,13 +43,13 @@ export const Crowd = styled.div`
 		line-height: 94px;
 		letter-spacing: -0.05em;
 		text-align: left;
-    color: #FFFFFF;
+		color: #ffffff;
 
-position: relative;
+		position: relative;
 	}
 `
 export const Form = styled.div`
-margin:40px;
+	margin: 40px;
 	input {
 		width: 1306px;
 		height: 54px;
@@ -66,8 +64,8 @@ margin:40px;
 		text-align: left;
 	}
 `
-	export const Box = styled.div`
-		/* display: flex;
+export const Box = styled.div`
+	/* display: flex;
 		flex-direction: row;
 		align-items: center;
 		padding: 0px;
@@ -78,24 +76,23 @@ margin:40px;
 		left: 10px;
 		top: 0px; */
 
-		/* background: #000000;
+	/* background: #000000;
 		border-radius: 12px; */
-		.column {
-			float: left;
-			width: 10%;
-			background-image: url(${header});
-			margin: 13px;
-			border-radius: 12px;
-			padding: 10px;
-			color: white;
-			width: 300px;
-			height: 300px;
-		}
+	.column {
+		float: left;
+		width: 10%;
+		background-image: url(${header});
+		margin: 13px;
+		border-radius: 12px;
+		padding: 10px;
+		color: white;
+		width: 300px;
+		height: 300px;
+	}
 
-	
-		.row:after {
-			content: '';
-			display: table;
-			clear: both;
-		}
-	`
+	.row:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+`
