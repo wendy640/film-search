@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import people from '../Assets/image.png'
-import { Box,Border, Content, Crowd, Form, MovieHeader, NavContainer } from './MovieStyles'
+import {
+	Box,
+	Border,
+	Crowd,
+	Form,
+	MovieHeader,
+	NavContainer
+} from './MovieStyles'
 import text from '../Assets/MyTestApp.png'
 
 function Movie() {
@@ -42,7 +48,7 @@ function Movie() {
 			</Form>
 			<div>
 				{movies.map((movie) => (
-					<h2 style={{textAlign:'left',marginLeft:25}}key={movie.id}>
+					<h2 style={{ textAlign: 'left', marginLeft: 25 }} key={movie.id}>
 						{movie.name}
 						<Box>
 							<div class="row">
