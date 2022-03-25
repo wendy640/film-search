@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 import header from '../Assets/header.png'
 import image from '../Assets/image.png'
+import box from '../Assets/halfbox.png'
+import box1 from '../Assets/box.png'
+export const Container = styled.div``
 export const NavContainer = styled.div`
 	box-sizing: border-box;
 	overflow: hidden;
-	/* position: absolute;
-	width: 100%;
-	z-index: 1;
-	padding: 12px 20px; */
 `
 export const MovieHeader = styled.div`
 	background-image: url(${header});
@@ -50,12 +49,13 @@ export const Crowd = styled.div`
 `
 export const Form = styled.div`
 	margin: 40px;
+	margin-left: 70px;
 	input {
 		width: 1306px;
 		height: 54px;
 		left: 0px;
 		top: 35px;
-
+		margin-left: -10px;
 		border: 1px solid #000000;
 		box-sizing: border-box;
 	}
@@ -65,34 +65,33 @@ export const Form = styled.div`
 	}
 `
 export const Box = styled.div`
-	/* display: flex;
-		flex-direction: row;
-		align-items: center;
-		padding: 0px;
-		color: white;
-
-		width: 300px;
-		height: 300px;
-		left: 10px;
-		top: 0px; */
-
-	/* background: #000000;
-		border-radius: 12px; */
+	margin-left: -10px;
+	margin-right:0px;
 	.column {
-		float: left;
-		width: 10%;
-		background-image: url(${header});
-		margin: 13px;
-		border-radius: 12px;
-		padding: 10px;
-		color: white;
 		width: 300px;
 		height: 300px;
+		left: 0px;
+		top: 0px;
+		border-radius: 12px;
+		float: left;
+		width: 17%;
+		margin-left: 10px;
+		margin-top: 10px;
+		background-image: url(${box1});
 	}
 
 	.row:after {
 		content: '';
 		display: table;
 		clear: both;
+	}
+	h4 {
+		padding: 90px 0;
+		color: #ffffff;
+		font-family: 'DM Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		margin: 30px;
 	}
 `
